@@ -3,10 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola Mundo</title>
+    <title>RAZONAMIENTO CUANTITATIVO 1</title>
+    <meta name="description" content="Herramienta educativa para clasificar numeros en conjuntos (naturales ,enteros, racionales) y resolver operacionnes aritmeticas  ">
+    <link rel="stylesheet" href="css/styles.css" >
 </head>
 <body>
-    <h1>HOLA MUNDOO</h1>
+  <div class="principal">
+    <nav class="opciones-nav" role="tablist">
+        <button class="tab-btn" role="tab">
+            <span class="nav-tab-text">CONJUNTOS DE NUMEROS</span> 
+        </button>
+        <button class="tab-btn" role="tab">
+            <span class="nav-tab-text">OPERACIONES ARITMETICAS</span>
+
+        </button>
+            
+        <button class="tab-btn" role="tab">
+            <span class="nav-tab-text">:D</span>
+        </button>
+            
+    </nav>
+    <section id="panel-clasificar" class="tab-panel active">
+        <div class="card">
+            <h2>CLASIFICADOR DE CONJUNTO DE NÚMEROS</h2>
+            <p>Ingresa un número y selecciona un conjunto para verificar si pertenece a el:</p>
+        </div>
+        <input type="text" id="numero-input">
+
+        <select id="select-conjuntos">
+            <option value="naturales">Naturales</option>
+            <option value="enteros">Enteros</option>
+            <option value="racionales">Racionales</option>
+
+        </select>
+
+    </section>
+    <h1>HOLA MUNDO</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, nemo ratione maiores aperiam repudiandae tempore quisquam iure ab maxime dignissimos aspernatur voluptates ad. Optio illum asperiores laborum recusandae odit obcaecati!</p>
-</body>
+    <script>
+        alert("HOLA")
+    </script>
+</div>    
+</body> 
 </html>
